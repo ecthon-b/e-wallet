@@ -13,6 +13,20 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  a {
+    color: var(--blue-light);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    padding: 0 2rem;
+    height: 3rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
   button {
     font-size: 1rem;
     color: #fff;
