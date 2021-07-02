@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { Summary } from "./components/Summary";
+import { TransactionsTable } from "./components/TransactionsTable/TransactionsTable";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
@@ -8,6 +9,7 @@ export function App() {
       <Header />
       <GlobalStyle />
       <Summary />
+      <TransactionsTable />
     </>
   );
 }
