@@ -27,6 +27,11 @@ export const Container = styled.div`
         color: var(--text-title);
       }
 
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+
       &.deposit {
         color: var(--green);
       }
